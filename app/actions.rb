@@ -1,3 +1,5 @@
 get '/' do
-  "Hello World this is my website"
+    @finstagram_posts = FinstagramPost.order(created_at: :desc)
+    erb(:index)
+
 end

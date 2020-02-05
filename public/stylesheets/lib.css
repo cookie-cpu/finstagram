@@ -3,9 +3,9 @@
 }
 
 body, input {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   margin: 0;
-  color: #244751;
+  color: #004cff;
 }
 
 a {
@@ -55,7 +55,7 @@ main {
 
 .button {
   padding: .5em;
-  background-color: white;
+  background-color: green;
   border: solid 1px #244751;
   display: inline-block;
 }
